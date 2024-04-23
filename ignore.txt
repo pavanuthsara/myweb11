@@ -1,0 +1,10 @@
+<?php 
+$sql = "INSERT INTO user(userid, username) VALUES (1001, 'Sandali')";
+if($connection->query($sql)){
+    echo "Inserted successfully";
+}else{
+    echo "Error ".$connection->error;
+}
+
+$connection -> close(); 
+?>
