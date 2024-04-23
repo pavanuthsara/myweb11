@@ -38,7 +38,7 @@
 
     ?>
 
-    <h3>Update details</h3>
+    <h3>Update details - Currently on maintain</h3>
     <form action="form-process.php" method="post">
         <h3>Enter user details</h3>
         User ID : <input type="number" name="userid"> <br>
